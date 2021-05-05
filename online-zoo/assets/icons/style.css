@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ajnuc3');
+  src:  url('fonts/icomoon.eot?ajnuc3#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ajnuc3') format('truetype'),
+    url('fonts/icomoon.woff?ajnuc3') format('woff'),
+    url('fonts/icomoon.svg?ajnuc3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-minus:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-plus:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-play1 .path1:before {
+  content: "\e917";
+  color: rgb(46, 46, 46);
+  opacity: 0.8;
+}
+.icon-play1 .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-play1 .path3:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-dropdown:before {
+  content: "\e90c";
+  color: #c5e1e6;
+}
+.icon-chevron-down:before {
+  content: "\e90d";
+  color: #19707d;
+}
+.icon-heart-outline:before {
+  content: "\e90e";
+  color: #19707d;
+}
+.icon-info:before {
+  content: "\e90f";
+  color: #19707d;
+}
+.icon-lock .path1:before {
+  content: "\e909";
+  color: rgb(42, 128, 136);
+}
+.icon-lock .path2:before {
+  content: "\e90a";
+  margin-left: -0.8125em;
+  color: rgb(42, 128, 136);
+}
+.icon-lock .path3:before {
+  content: "\e90b";
+  margin-left: -0.8125em;
+  color: rgb(255, 255, 255);
+}
+.icon-chevron-left:before {
+  content: "\e907";
+  color: #19707d;
+}
+.icon-chevron-right:before {
+  content: "\e908";
+  color: #19707d;
+}
+.icon-comment:before {
+  content: "\e900";
+  color: #19707d;
+}
+.icon-credit-card:before {
+  content: "\e901";
+  color: #2a8088;
+}
+.icon-heart:before {
+  content: "\e902";
+  color: #19707d;
+}
+.icon-play:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-menu:before {
+  content: "\e904";
+  color: #c5e1e6;
+}
+.icon-search:before {
+  content: "\e905";
+  color: #c5e1e6;
+}
+.icon-tv:before {
+  content: "\e906";
+  color: #216e7a;
+}
